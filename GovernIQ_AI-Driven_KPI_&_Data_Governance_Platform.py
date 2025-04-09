@@ -74,7 +74,7 @@ choice = st.sidebar.selectbox("Navigate", menu)
 
 # Dashboard
 if choice == "📊 Dashboard":
-    st.title("GovernIQ - KPI Governance Dashboard")
+    st.title("GovernIQ - AI-Driven KPI & Data Governance Platform ")
     kpi_count = pd.read_sql_query("SELECT COUNT(*) as total FROM kpis", conn).iloc[0]['total']
     st.metric("Total KPIs", kpi_count)
     dept_df = pd.read_sql_query("SELECT department, COUNT(*) as count FROM kpis GROUP BY department", conn)
