@@ -5,7 +5,7 @@
 
 
 # GovernIQ - AI-Driven KPI & Data Governance Platform 
-# Streamlit + SQLite + Plotly + Collibra-style Data Governance
+# Streamlit + SQLite + Plotly 
 
 import streamlit as st
 import sqlite3
